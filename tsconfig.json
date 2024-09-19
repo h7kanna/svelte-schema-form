@@ -11,7 +11,12 @@
 		"strict": true,
 		"outDir": "dist",
 		"ignoreDeprecations": "5.0",
-		"verbatimModuleSyntax": true
+		"verbatimModuleSyntax": true,
+		"types": [
+			"vitest/globals",
+			"@sveltejs/kit",
+			"@sveltejs/kit/vite"
+		]
 	},
 	"exclude": [
 		"dist"
